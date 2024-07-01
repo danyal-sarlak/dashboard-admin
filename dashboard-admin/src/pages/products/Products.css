@@ -1,0 +1,107 @@
+.Products {
+    flex: 3;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .ProductTitle {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .ProductsTable {
+    width: 100%;
+    border-spacing: 20px;
+    border-bottom: 1px solid gray;
+  }
+  .ProductTr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .ProductTr th {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  .ProductTr td{
+    text-align: left; 
+  }
+  .ProductId a,
+  .ProductName {
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  
+
+  
+  .ProductTh, .ProductThData, .ProductThPrice, .ProductAction {
+    text-align: left;
+  }
+  
+  .ProductId, .ProductData, .ProductPrice {
+    font-weight: 300;
+  }
+  
+  .ProductData {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .ProductImg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  
+  
+  .ProductAction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .editbtn {
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #3bb077;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+  
+  .deletbtn {
+    color: red;
+    width: 20px;
+    height: 20px;
+ cursor: pointer;
+  }
+
+
+  .ProductsTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ProductTr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .ProductTh, .ProductTd {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  
+
+ 
+  
+
+  
+  

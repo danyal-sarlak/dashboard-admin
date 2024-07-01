@@ -1,0 +1,30 @@
+.titleheader{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 30px;
+    color: rgb(44, 1, 218);
+
+}
+
+.header{
+    width: 1485px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+}
+.headericons{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.topbarIcon{
+    width: 30px;
+    height: 30px;
+}

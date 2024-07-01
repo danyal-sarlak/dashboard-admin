@@ -1,0 +1,52 @@
+.sidebar {
+    flex: 1;
+    height: calc(100vh - 50px); /* اصلاح فاصله‌ها در calc */
+    background-color: rgb(251, 251, 255);
+    position: sticky;
+    top: 50px;
+  }
+  
+  .sidebarwrapper {
+    padding: 20px;
+    color: #555;
+  }
+  
+  .sidebarmenu {
+    margin-bottom: 10px;
+  }
+  
+  .sidebartitle {
+    font-size: 14px; 
+    color: rgb(187, 186, 186);
+    text-align: left; /* متن‌ها را به سمت چپ می‌برد */
+  }
+  
+  .sidebarlist {
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .sidebarlistitem {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: flex-start; /* محتوا را به سمت چپ تنظیم می‌کند */
+  }
+  
+  .sidebarlistitem.active,
+  .sidebarlistitem:hover {
+    background-color: rgb(240, 240, 255);
+  }
+  
+  .sidebarIcon {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
